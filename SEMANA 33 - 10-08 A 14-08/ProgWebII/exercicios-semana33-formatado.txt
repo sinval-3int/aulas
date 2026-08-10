@@ -1,0 +1,131 @@
+================================================================
+ ATIVIDADE — SEMANA 33
+ PROGRAMAÇÃO WEB II — VARIÁVEIS, CÁLCULOS E ESTRUTURA CONDICIONAL
+================================================================
+
+Professor: Sinval Silva Júnior
+Turma: 3º Ano Integral
+
+São 10 exercícios. Para cada um, leia o ENUNCIADO, a ENTRADA ESPERADA e a SAÍDA ESPERADA, e confira os EXEMPLOS antes de resolver.
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 1 — Área do Círculo
+----------------------------------------------------------------
+ENUNCIADO: area = π . raio², com π = 3.14159. Eleve o raio ao quadrado e multiplique por π.
+ENTRADA ESPERADA: um valor de ponto flutuante (raio).
+SAÍDA ESPERADA: mensagem "A=" + area, com 4 casas decimais.
+EXEMPLOS:
+  Entrada: 2.00        Saída: A=12.5664
+  Entrada: 100.64      Saída: A=31819.3103
+  Entrada: 150.00      Saída: A=70685.7750
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 2 — Produto Simples
+----------------------------------------------------------------
+ENUNCIADO: leia dois valores inteiros e calcule o produto entre eles (PROD).
+ENTRADA ESPERADA: 2 valores inteiros.
+SAÍDA ESPERADA: mensagem "PROD = " + valor, um espaço antes e depois do "=".
+EXEMPLOS:
+  Entrada: 3 / 9          Saída: PROD = 27
+  Entrada: -30 / 10       Saída: PROD = -300
+  Entrada: 0 / 9          Saída: PROD = 0
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 3 — Média 1
+----------------------------------------------------------------
+ENUNCIADO: leia as notas A e B (peso 3.5 e 7.5, soma dos pesos = 11) e calcule a média ponderada.
+ENTRADA ESPERADA: 2 valores com uma casa decimal (notas de 0 a 10.0).
+SAÍDA ESPERADA: mensagem "MEDIA = " + média, com 5 casas decimais.
+EXEMPLOS:
+  Entrada: 5.0 / 7.1      Saída: MEDIA = 6.43182
+  Entrada: 0.0 / 7.1      Saída: MEDIA = 4.84091
+  Entrada: 10.0 / 10.0    Saída: MEDIA = 10.00000
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 4 — Salário
+----------------------------------------------------------------
+ENUNCIADO: leia número do funcionário, horas trabalhadas e valor por hora; calcule o salário (horas x valor/hora).
+ENTRADA ESPERADA: 2 números inteiros (número, horas) e 1 valor com duas casas decimais (valor/hora).
+SAÍDA ESPERADA: "NUMBER = " + número e "SALARY = U$ " + salário, com duas casas decimais.
+EXEMPLOS:
+  Entrada: 25 / 100 / 5.50    Saída: NUMBER = 25 / SALARY = U$ 550.00
+  Entrada: 1 / 200 / 20.50    Saída: NUMBER = 1 / SALARY = U$ 4100.00
+  Entrada: 6 / 145 / 15.55    Saída: NUMBER = 6 / SALARY = U$ 2254.75
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 5 — Comissão do Vendedor
+----------------------------------------------------------------
+ENUNCIADO: leia nome, salário fixo e total de vendas; vendedor ganha 15% de comissão sobre as vendas. Calcule o total a receber.
+ENTRADA ESPERADA: um texto (nome) e 2 valores com duas casas decimais (salário fixo, total de vendas).
+SAÍDA ESPERADA: mensagem "TOTAL = R$ " + total, com duas casas decimais.
+EXEMPLOS:
+  Entrada: JOAO / 500.00 / 1230.30         Saída: TOTAL = R$ 684.54
+  Entrada: PEDRO / 700.00 / 0.00           Saída: TOTAL = R$ 700.00
+  Entrada: MANGOJATA / 1700.00 / 1230.50   Saída: TOTAL = R$ 1884.58
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 6 — Consumo
+----------------------------------------------------------------
+ENUNCIADO: calcule o consumo médio de um automóvel (distância ÷ combustível gasto).
+ENTRADA ESPERADA: um valor inteiro (distância em Km) e um valor com 1 casa decimal (litros).
+SAÍDA ESPERADA: consumo com 3 casas decimais + " km/l".
+EXEMPLOS:
+  Entrada: 500 / 35.0        Saída: 14.286 km/l
+  Entrada: 2254 / 124.4      Saída: 18.119 km/l
+  Entrada: 4554 / 464.6      Saída: 9.802 km/l
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 7 — Idade em Dias
+----------------------------------------------------------------
+ENUNCIADO: leia a idade em dias e converta em anos, meses e dias (ano = 365 dias, mês = 30 dias).
+ENTRADA ESPERADA: um valor inteiro (dias).
+SAÍDA ESPERADA: 3 linhas — "X ano(s)", "X mes(es)", "X dia(s)".
+EXEMPLOS:
+  Entrada: 400   Saída: 1 ano(s) / 1 mes(es) / 5 dia(s)
+  Entrada: 800   Saída: 2 ano(s) / 2 mes(es) / 10 dia(s)
+  Entrada: 30    Saída: 0 ano(s) / 1 mes(es) / 0 dia(s)
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 8 — Fórmula de Bhaskara
+----------------------------------------------------------------
+ENUNCIADO: leia A, B e C e calcule as raízes de Bhaskara. Se não for possível (divisão por 0 ou raiz de negativo), mostre "Impossivel calcular".
+ENTRADA ESPERADA: 3 valores de ponto flutuante (A, B, C).
+SAÍDA ESPERADA: "R1 = " e "R2 = " com 5 casas decimais, ou "Impossivel calcular".
+EXEMPLOS:
+  Entrada: 10.0 20.1 5.1     Saída: R1 = -0.29788 / R2 = -1.71212
+  Entrada: 0.0 20.0 5.0      Saída: Impossivel calcular
+  Entrada: 10.3 203.0 5.0    Saída: R1 = -0.02466 / R2 = -19.68408
+  Entrada: 10.0 3.0 5.0      Saída: Impossivel calcular
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 9 — Números Pares
+----------------------------------------------------------------
+ENUNCIADO: mostre os números pares entre 1 e 100, inclusive.
+ENTRADA ESPERADA: nenhuma.
+SAÍDA ESPERADA: todos os pares de 1 a 100, um por linha.
+EXEMPLOS:
+  Saída: 2, 4, 6, ... 100
+
+
+----------------------------------------------------------------
+ EXERCÍCIO 10 — Tabuada
+----------------------------------------------------------------
+ENUNCIADO: leia um valor inteiro N (2 < N < 1000) e mostre a tabuada de N (1 x N até 10 x N).
+ENTRADA ESPERADA: um valor inteiro N.
+SAÍDA ESPERADA: 10 linhas no formato "i x N = i*N".
+EXEMPLOS:
+  Entrada: 140
+  Saída: 1 x 140 = 140 / 2 x 140 = 280 / 3 x 140 = 420 / ... / 10 x 140 = 1400
+
+================================================================
+ FIM DA ATIVIDADE — 10 EXERCÍCIOS
+================================================================
