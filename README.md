@@ -13,5 +13,6 @@ Repositório de material de aula do curso técnico 3INT.
 - **[SEMANA 33 - 10-08 A 14-08/](SEMANA%2033%20-%2010-08%20A%2014-08/README.md)** — Material da Semana 33.
 - **[SEMANA 34 - 17-08 A 21-08/](SEMANA%2034%20-%2017-08%20A%2021-08/README.md)** — Semana de avaliações (Provas 1, 2 e 3).
 - **[SEMANA 35 - 24-08 A 28-08/](SEMANA%2035%20-%2024-08%20A%2028-08/README.md)** — Fechamento de trimestre: vistos, Simulado ENEM, revisão lúdica e correção de provas.
+- **[SEMANA 39 - 21-09 A 25-09/](SEMANA%2039%20-%2021-09%20A%2025-09/README.md)** — Listas, conjuntos e laço while (terça e quinta expositivas; segunda, quarta e sexta práticas).
 
 Cada pasta possui seu próprio `README.md` detalhando o conteúdo específico.
