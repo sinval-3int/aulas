@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Uma vitrine demonstrativa de produtos infantis inspirada na Loja da Teté." />
+    <title>Loja da Teté — pequenas descobertas</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Loja da Teté, início">
+        <span class="brand-mark" aria-hidden="true">t.</span>
+        <span class="brand-name">loja da <strong>Teté</strong></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#catalogo">Produtos</a>
+        <a href="#sobre">Nossa história</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="bag-trigger" id="abrir-sacola" type="button" aria-controls="painel-sacola" aria-expanded="false">
+        <span class="bag-icon" aria-hidden="true">＋</span>
+        Sacola <span class="bag-count" id="contagem-sacola" aria-live="polite">0</span>
+      </button>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> um cantinho de descobertas para os pequenos</p>
+          <h1 id="titulo-principal">Pequenas coisas.<br /><em>Grandes começos.</em></h1>
+          <p class="hero-description">Brincar, descobrir, experimentar. A Loja da Teté reúne ideias para acompanhar os primeiros anos com afeto e curiosidade.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#catalogo">Conhecer a vitrine <span aria-hidden="true">→</span></a>
+            <span class="hero-note">Uma loja de demonstração<br />inspirada na Teté.</span>
+          </div>
+          <div class="hero-stats" aria-label="Informações sobre a vitrine">
+            <span><strong>0–2</strong> aninhos</span>
+            <span><strong>8</strong> descobertas</span>
+            <span><strong>100%</strong> brincadeira</span>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="hero-photo-frame">
+            <img src="imagens/tete-hero.jpg" alt="Teté ao ar livre, sorrindo durante uma descoberta" />
+          </div>
+          <div class="hero-sticker"><span>feito para<br />pequenos<br />começos</span></div>
+          <span class="hero-spark hero-spark-one" aria-hidden="true">✳</span>
+          <span class="hero-spark hero-spark-two" aria-hidden="true">✳</span>
+          <p class="photo-caption">curiosidade combina com tudo</p>
+        </div>
+      </section>
+
+      <section class="promise-strip" aria-label="Sobre a seleção">
+        <p><span aria-hidden="true">✿</span> Escolhas para brincar</p>
+        <p><span aria-hidden="true">✿</span> Ideias para descobrir</p>
+        <p><span aria-hidden="true">✿</span> Uma vitrine feita com carinho</p>
+      </section>
+
+      <section class="catalog section-wrap" id="catalogo" aria-labelledby="titulo-catalogo">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">a prateleira da Teté</p>
+            <h2 id="titulo-catalogo">O que vamos <em>descobrir?</em></h2>
+          </div>
+          <p class="section-intro">Pesquise pelo nome ou escolha uma categoria. Os preços e produtos são apenas exemplos para este projeto.</p>
+        </div>
+
+        <form class="catalog-tools" id="filtros-catalogo" role="search">
+          <div class="field-group search-field">
+            <label for="busca-produtos">Buscar na vitrine</label>
+            <div class="input-with-icon">
+              <span aria-hidden="true">⌕</span>
+              <input id="busca-produtos" name="busca" type="search" placeholder="Ex.: livro, brincar..." autocomplete="off" />
+            </div>
+          </div>
+          <div class="field-group category-field">
+            <label for="filtro-categoria">Escolher categoria</label>
+            <select id="filtro-categoria" name="categoria">
+              <option value="todas">Todas as categorias</option>
+            </select>
+          </div>
+          <button class="clear-filters" id="limpar-filtros" type="button">Limpar busca</button>
+        </form>
+
+        <p class="results-message" id="mensagem-resultados" aria-live="polite">Carregando a vitrine...</p>
+        <div class="product-grid" id="lista-produtos" aria-describedby="mensagem-resultados"></div>
+        <div class="empty-state" id="estado-vazio" hidden>
+          <span class="empty-flower" aria-hidden="true">✿</span>
+          <h3>Nenhuma descoberta por aqui ainda.</h3>
+          <p>Tente outra palavra ou volte para todas as categorias.</p>
+        </div>
+      </section>
+
+      <section class="about-section" id="sobre" aria-labelledby="titulo-sobre">
+        <div class="about-photo">
+          <img src="imagens/tete-sobre.jpg" alt="Teté concentrada em uma brincadeira" loading="lazy" />
+          <span class="photo-tag">um mundo em construção</span>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">por trás da lojinha</p>
+          <h2 id="titulo-sobre">A Teté inspira.<br /><em>A curiosidade faz o resto.</em></h2>
+          <p>Esta vitrine nasceu de um projeto de aula sobre uma criança de 1 ano e uma loja para os primeiros anos. Cada produto é um convite para imaginar, brincar e aprender no próprio ritmo.</p>
+          <p class="about-note">As fotos e a ideia vêm do site didático da Loja da Teté. Os preços, o estoque e a sacola são demonstrações, não vendas reais.</p>
+          <a class="text-link" href="#contato">Fale com a gente <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contato" aria-labelledby="titulo-contato">
+        <div class="contact-copy">
+          <p class="eyebrow">uma mensagem de cada vez</p>
+          <h2 id="titulo-contato">Quer contar uma <em>ideia?</em></h2>
+          <p>Use o formulário para testar os campos e a resposta da página. Esta demonstração não envia nem armazena mensagens.</p>
+        </div>
+        <form class="contact-form" id="form-contato">
+          <div class="field-group">
+            <label for="nome-contato">Seu nome</label>
+            <input id="nome-contato" name="nome" type="text" autocomplete="name" maxlength="60" required />
+          </div>
+          <div class="field-group">
+            <label for="email-contato">Seu e-mail</label>
+            <input id="email-contato" name="email" type="email" autocomplete="email" maxlength="120" required />
+          </div>
+          <div class="field-group">
+            <label for="mensagem-contato">Sua mensagem</label>
+            <textarea id="mensagem-contato" name="mensagem" rows="3" maxlength="300" required></textarea>
+          </div>
+          <button class="button button-dark" type="submit">Mostrar confirmação <span aria-hidden="true">→</span></button>
+          <p class="form-status" id="status-contato" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">t.</span><span class="brand-name">loja da <strong>Teté</strong></span></a>
+      <p>Projeto didático. Produtos, preços, estoque e pedidos são fictícios.</p>
+      <a class="back-top" href="#inicio">Voltar ao começo ↑</a>
+    </footer>
+
+    <button class="cart-scrim" id="fechar-fundo-sacola" type="button" aria-label="Fechar sacola" hidden></button>
+    <aside class="cart-panel" id="painel-sacola" aria-labelledby="titulo-sacola" hidden>
+      <div class="cart-heading">
+        <div>
+          <p class="eyebrow">sua seleção</p>
+          <h2 id="titulo-sacola">Sacola de brincadeira</h2>
+        </div>
+        <button class="icon-button" id="fechar-sacola" type="button" aria-label="Fechar sacola">×</button>
+      </div>
+      <p class="cart-disclaimer">Protótipo escolar: nenhum pedido ou pagamento será realizado.</p>
+      <div class="cart-items" id="itens-sacola" aria-live="polite"></div>
+      <div class="cart-empty" id="sacola-vazia">
+        <span aria-hidden="true">✿</span>
+        <p>Sua sacola ainda está vazia.</p>
+        <button class="text-link" id="voltar-vitrine" type="button">Voltar à vitrine</button>
+      </div>
+      <div class="cart-summary" id="resumo-sacola" hidden>
+        <p><span>Subtotal demonstrativo</span><strong id="subtotal-sacola">R$ 0,00</strong></p>
+        <button class="button button-dark checkout-button" id="simular-pedido" type="button">Simular pedido</button>
+        <p class="form-status" id="status-pedido" aria-live="polite"></p>
+      </div>
+    </aside>
+  </body>
+</html>

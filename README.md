@@ -15,5 +15,9 @@ Repositório de material de aula do curso técnico 3INT.
 - **[SEMANA 35 - 24-08 A 28-08/](SEMANA%2035%20-%2024-08%20A%2028-08/README.md)** — Fechamento de trimestre: vistos, Simulado ENEM, revisão lúdica e correção de provas.
 - **[SEMANA 39 - 21-09 A 25-09/](SEMANA%2039%20-%2021-09%20A%2025-09/README.md)** — Listas, conjuntos e laço while (terça e quinta expositivas; segunda, quarta e sexta práticas).
 - **[SEMANA 40 - 28-09 A 02-10/](SEMANA%2040%20-%2028-09%20A%2002-10/README.md)** — Introdução ao Excel, imersão HTML+CSS+JS e Introdução a Funções (manhãs expositivas, tardes práticas).
+- **[SEMANA 41 - 05-10 A 09-10/](SEMANA%2041%20-%2005-10%20A%2009-10/README.md)** — Semana prática de desenvolvimento web, pensamento algorítmico e aprimoramento de código; em 08/10, simulado de redação do ENEM.
+- **[SEMANA 43 - 19-10 A 23-10/](SEMANA%2043%20-%2019-10%20A%2023-10/README.md)** — Qualidade de software, desenvolvimento web, pesquisa para a Feira de Ciências, Git/GitHub, funções JavaScript e jogo de cores.
+- **[SEMANA 44 - 26-10 A 30-10/](SEMANA%2044%20-%2026-10%20A%2030-10/README.md)** — Lançamento do trabalho final e desenvolvimento prático de um site integrando funções, listas e banco de dados.
+- **[Modelo final — Loja da Teté](SEMANA%2044%20-%2026-10%20A%2030-10/Modelo-Final-Loja-da-Tete/README.md)** — Projeto de exemplo completo com site, planilha, histórico Git e explicação dos 20 pontos.
 
 Cada pasta possui seu próprio `README.md` detalhando o conteúdo específico.
