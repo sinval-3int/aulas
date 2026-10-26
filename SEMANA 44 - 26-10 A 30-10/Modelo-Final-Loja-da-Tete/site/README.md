@@ -14,3 +14,5 @@ Site demonstrativo de uma página, com HTML semântico e arquivos separados de C
 Abra `index.html` no navegador. Para que `localStorage` funcione de forma consistente em todos os navegadores, você também pode servir esta pasta localmente, por exemplo com `python3 -m http.server 8000`, e abrir `http://localhost:8000`.
 
 O catálogo e os valores são demonstrativos. Não existe pagamento, envio de pedidos ou conexão com banco de dados real.
+
+#teste
